@@ -1,5 +1,0 @@
-package org.sid;
-
-public interface CompanyRepository {
-
-}
