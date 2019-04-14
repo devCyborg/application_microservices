@@ -1,0 +1,16 @@
+package org.sid;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class companyRestService {
+	@Value("${xParam}")
+	private String xParam;
+	
+	@Value("${yParam}")
+	private String yParam;
+	
+	@Value("${me}")
+	private String me;
+	
+
+}

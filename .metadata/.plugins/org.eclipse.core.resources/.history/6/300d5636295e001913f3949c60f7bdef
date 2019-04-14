@@ -1,0 +1,5 @@
+spring.application.name=service-register
+
+#service d'enregistrement
+spring.cloud.config.uri=http://localhost:8888
+eureka.client.register-with-eureka=false
